@@ -2,7 +2,7 @@
 
 SymmetricDS-repcat project aims to make SymmetricDS setup process automated for large number of tables. 
 
-SymmetricDS Pro version comes with a GUI that lets you configure table triggers, routers, load filters. In case the numbers of tables to be replicated there some problems those need to be addressed.
+SymmetricDS Pro version comes with a GUI that lets you configure table triggers, routers, load filters. In case the numbers of tables to be replicated increase using the GUI for this process becomes non-feasible. Some problems need to be addressed.
 
   1. Creating tables triggers, routers and load filters using GUI is error prone process.
   2. Creating tables triggers, routers and load filters using GUI might take lots of effort.
