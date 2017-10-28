@@ -27,14 +27,14 @@ GRANT SELECT ON SYS.V_$MYSTAT TO SYM_ADM;
 GRANT SELECT ON SYS.V_$SESSION TO SYM_ADM;
 
 
---just on node1
+--this function should be created on each node with a different node name.
 CREATE OR REPLACE FUNCTION SYM_ADM.get_node_name RETURN varchar2 IS
 BEGIN
    RETURN 'NODE1';
 END get_node_name;
 /
  
---just on nodes inside group 1
+--if the nodes are grouped, this function should be created in each group with a different group name.
 CREATE OR REPLACE FUNCTION SYM_ADM.get_node_group RETURN varchar2 IS
 BEGIN
    RETURN 'GROUP1';
